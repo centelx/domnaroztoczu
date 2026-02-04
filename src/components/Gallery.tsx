@@ -32,39 +32,39 @@ export const Gallery: React.FC = () => {
   // Zmiana: Lista zdjęć z folderu public (2-11.JPEG)
   const images = [
     {
-      src: '/2.JPEG',
+      src: '/2.jpg',
       alt: 'Dom na Roztoczu - widok zewnętrzny',
     },
     {
-      src: '/3.JPEG',
+      src: '/3.jpg',
       alt: 'Wnętrze domu',
     },
     {
-      src: '/4.JPEG',
+      src: '/4.jpg',
       alt: 'Strefa wypoczynkowa',
     },
     {
-      src: '/5.JPEG',
+      src: '/5.jpg',
       alt: 'Detale wystroju',
     },
     {
-      src: '/6.JPEG',
+      src: '/6.jpg',
       alt: 'Okolica i natura',
     },
     {
-      src: '/7.JPEG',
+      src: '/7.jpg',
       alt: 'Taras i ogród',
     },
     {
-      src: '/8.JPEG',
+      src: '/8.jpg',
       alt: 'Udogodnienia',
     },
     {
-      src: '/10.JPEG',
+      src: '/10.jpg',
       alt: 'Klimat miejsca',
     },
     {
-      src: '/11.JPEG',
+      src: '/11.jpg',
       alt: 'Wieczorny nastrój',
     },
   ];
