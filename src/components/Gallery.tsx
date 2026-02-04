@@ -29,38 +29,43 @@ const GalleryImage: React.FC<GalleryImageProps> = ({ src, alt, delay }) => {
 };
 
 export const Gallery: React.FC = () => {
+  // Zmiana: Lista zdjęć z folderu public (2-11.JPEG)
   const images = [
     {
-      src: 'https://images.unsplash.com/photo-1449156493391-d2cfa28e468b?auto=format&fit=crop&w=800&q=80',
+      src: '/2.JPEG',
       alt: 'Dom na Roztoczu - widok zewnętrzny',
     },
     {
-      src: 'https://images.unsplash.com/photo-1542718610-a1d656d1884c?auto=format&fit=crop&w=800&q=80',
-      alt: 'Kominek w salonie',
+      src: '/3.JPEG',
+      alt: 'Wnętrze domu',
     },
     {
-      src: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80',
-      alt: 'Strefa SPA z balią',
+      src: '/4.JPEG',
+      alt: 'Strefa wypoczynkowa',
     },
     {
-      src: 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80',
-      alt: 'Las i przyroda wokół domu',
+      src: '/5.JPEG',
+      alt: 'Detale wystroju',
     },
     {
-      src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80',
-      alt: 'Przestronny salon',
+      src: '/6.JPEG',
+      alt: 'Okolica i natura',
     },
     {
-      src: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80',
-      alt: 'Taras z widokiem na las',
+      src: '/7.JPEG',
+      alt: 'Taras i ogród',
     },
     {
-      src: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80',
-      alt: 'Komfortowa sypialnia',
+      src: '/8.JPEG',
+      alt: 'Udogodnienia',
     },
     {
-      src: 'https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=800&q=80',
-      alt: 'Sauna w strefie SPA',
+      src: '/10.JPEG',
+      alt: 'Klimat miejsca',
+    },
+    {
+      src: '/11.JPEG',
+      alt: 'Wieczorny nastrój',
     },
   ];
 
@@ -82,7 +87,7 @@ export const Gallery: React.FC = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {images.map((image, index) => (
             <GalleryImage
               key={index}
