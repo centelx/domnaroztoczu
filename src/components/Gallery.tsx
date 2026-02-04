@@ -63,10 +63,6 @@ export const Gallery: React.FC = () => {
       src: '/10.jpg',
       alt: 'Klimat miejsca',
     },
-    {
-      src: '/11.jpg',
-      alt: 'Wieczorny nastrój',
-    },
   ];
 
   return (
