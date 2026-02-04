@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Waves, Users, Dog, Flame, Film, Coffee } from 'lucide-react';
+import { Waves, Dog, Film, Wifi, UtensilsCrossed, Ship } from 'lucide-react';
 import { Section } from './ui/Section';
 
 interface FeatureCardProps {
@@ -37,39 +37,39 @@ export const Features: React.FC = () => {
   const features = [
     {
       icon: <Waves className="w-12 h-12" />,
-      title: 'Strefa SPA',
+      title: 'Strefa SPA & Klimat',
       description:
-        'Sauna, balia i jacuzzi pod gołym niebem. Wieczorem, w blasku girland, to czysta magia.',
+        'Sauna, balia, jacuzzi i girlandy świetlne. Do tego ogromny taras ze stołem, grillem i bujany fotel – idealny przy kominku lub na zewnątrz.',
     },
     {
-      icon: <Users className="w-12 h-12" />,
-      title: 'Komfort dla 7 osób',
+      icon: <Ship className="w-12 h-12" />,
+      title: 'Kajaki',
       description:
-        '2 sypialnie, salon z kominkiem, antresola. Idealne dla rodzin i grup przyjaciół.',
-    },
-    {
-      icon: <Dog className="w-12 h-12" />,
-      title: 'Prywatność',
-      description:
-        'Ogrodzony teren, brak sąsiadów zaglądających w okna. Bezpiecznie dla dzieci i psów.',
-    },
-    {
-      icon: <Flame className="w-12 h-12" />,
-      title: 'Miejsce na ognisko',
-      description:
-        'Wieczory przy ognisku i grillu. Hamaki, dobra książka i szum lasu w tle.',
+        'Kajaki na wyciągnięcie ręki – zaledwie 300 metrów od domku. Płyniesz rzeką, a po wyprawie zapewniamy transport powrotny prosto do domu.',
     },
     {
       icon: <Film className="w-12 h-12" />,
-      title: 'Kino domowe',
+      title: 'Kino i Rozrywka',
       description:
-        'Rzutnik kinowy na wieczorne seanse. Idealne dla rodzinnych wieczorów filmowych.',
+        'Opcja „kina" (rzutnik i płótno na wieczorny seans), miejsce na ognisko (zima/lato), leżaki i huśtawki. Rowery do dyspozycji gości.',
     },
     {
-      icon: <Coffee className="w-12 h-12" />,
-      title: 'Kominek i taras',
+      icon: <Dog className="w-12 h-12" />,
+      title: 'Komfort i Prywatność',
       description:
-        'Przytulny kominek w salonie i przestronny taras z widokiem na las.',
+        'Teren jest w pełni ogrodzony (bezpiecznie dla dzieci i psów). W środku wyposażona kuchnia ze zmywarką, 3 komplety ręczników (również do SPA), Wi-Fi i TV.',
+    },
+    {
+      icon: <UtensilsCrossed className="w-12 h-12" />,
+      title: 'Pełne Wyposażenie',
+      description:
+        'Kuchnia z nowoczesnymi urządzeniami, przestronny salon z kominkiem, 2 sypialnie plus antresola. Wszystko, czego potrzebujesz do komfortowego pobytu.',
+    },
+    {
+      icon: <Wifi className="w-12 h-12" />,
+      title: 'Nowoczesne Udogodnienia',
+      description:
+        'Szybkie Wi-Fi, telewizor, pralka, ogrzewanie podłogowe. Komfort na najwyższym poziomie przez cały rok.',
     },
   ];
 
