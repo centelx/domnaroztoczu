@@ -63,13 +63,13 @@ export const Features: React.FC = () => {
       icon: <UtensilsCrossed className="w-12 h-12" />,
       title: 'Pełne Wyposażenie',
       description:
-        'Kuchnia z nowoczesnymi urządzeniami, przestronny salon z kominkiem, 2 sypialnie plus antresola. Wszystko, czego potrzebujesz do komfortowego pobytu.',
+        'Kuchnia w pełni wyposażona z nowoczesnymi urządzeniami, przestronny salon z kominkiem, 2 sypialnie plus antresola. Wszystko, czego potrzebujesz do komfortowego pobytu.',
     },
     {
       icon: <Wifi className="w-12 h-12" />,
       title: 'Nowoczesne Udogodnienia',
       description:
-        'Szybkie Wi-Fi, telewizor, pralka, ogrzewanie podłogowe. Komfort na najwyższym poziomie przez cały rok.',
+        'Szybkie Wi-Fi, telewizor, klimatyzacja, grzejniki, ogrzewanie podłogowe, płyny pod prysznicem. Komfort na najwyższym poziomie przez cały rok.',
     },
   ];
 
