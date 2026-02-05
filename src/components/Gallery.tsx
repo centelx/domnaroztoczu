@@ -54,7 +54,14 @@ export const Gallery: React.FC = () => {
     { src: '/6.jpg', alt: 'Okolica i natura' },
     { src: '/7.jpg', alt: 'Taras i ogród' },
     { src: '/8.jpg', alt: 'Udogodnienia' },
-    { src: '/10.jpg', alt: 'Klimat miejsca' },
+    { src: '/9.jpg', alt: 'Klimat miejsca' },
+    { src: '/10.jpg', alt: 'Dom na Roztoczu - widok zewnętrzny' },
+    { src: '/11.jpg', alt: 'Wnętrze domu' },
+    { src: '/12.jpg', alt: 'Strefa wypoczynkowa' },
+    { src: '/13.jpg', alt: 'Detale wystroju' },
+    { src: '/14.jpg', alt: 'Okolica i natura' },
+    { src: '/15.jpg', alt: 'Taras i ogród' },
+    { src: '/16.jpg', alt: 'Udogodnienia' },
   ];
 
   return (
