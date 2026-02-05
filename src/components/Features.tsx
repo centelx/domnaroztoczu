@@ -57,7 +57,7 @@ export const Features: React.FC = () => {
       icon: <Dog className="w-12 h-12" />,
       title: 'Komfort i Prywatność',
       description:
-        'Teren jest w pełni ogrodzony (bezpiecznie dla dzieci i psów). W środku wyposażona kuchnia ze zmywarką, 3 komplety ręczników (również do SPA), Wi-Fi i TV.',
+        'Teren jest w pełni ogrodzony (bezpiecznie dla dzieci i psów). W środku w pełni wyposażona kuchnia ze zmywarką, 3 komplety ręczników (również do SPA), Wi-Fi i TV.',
     },
     {
       icon: <UtensilsCrossed className="w-12 h-12" />,
