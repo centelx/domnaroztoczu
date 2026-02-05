@@ -35,7 +35,7 @@ export const About: React.FC = () => {
             </p>
 
             <p className="text-lg md:text-xl text-text leading-relaxed">
-              Jeśli szukasz domku na wynajem na weekend, który daje ciszę, prywatność
+              Jeśli szukasz domku na wynajem na weekend i nie tylko, który daje ciszę, spokój, prywatność
               i komfort (a nie „nocleg jak każdy") – to może być dokładnie to.
               Jesteśmy w Obroczy, z dala od hałasu i głównych dróg, ale blisko tego,
               co fajne. Do Zwierzyńca masz 5 km, a z Lublina dojedziesz w godzinę.
