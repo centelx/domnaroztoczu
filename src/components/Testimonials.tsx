@@ -34,19 +34,19 @@ export const Testimonials: React.FC = () => {
   const reviews = [
     {
       name: 'Magda i Tomek',
-      date: 'Wrzesień 2023',
+      date: 'Wrzesień 2025',
       content:
         'Szukaliśmy miejsca, żeby uciec od miasta i po prostu pobyć w ciszy. To było to. Wieczory w balii pod gwiazdami to absolutny sztos. Domek jest tak urządzony, że od razu czujesz się jak u siebie, a nie jak w hotelu. Na pewno wrócimy zimą.',
     },
     {
       name: 'Rodzina Kowalskich',
-      date: 'Lipiec 2023',
+      date: 'Lipiec 2025',
       content:
         'Dzieciaki zachwycone przestrzenią do biegania, my bliskością kajaków. Rano kawa na tarasie smakuje tu obłędnie. Super kontakt z właścicielami – widać, że wkładają w to miejsce całe serce. Czysto, pachnąco i z klimatem.',
     },
     {
       name: 'Kasia',
-      date: 'Październik 2023',
+      date: 'Październik 2025',
       content:
         'Obawiałam się trochę jesiennej pogody, ale kominek i sauna zrobiły robotę. Idealne miejsce na babski wyjazd. Jest bardzo prywatnie, nikt nie zagląda w okna, a do Zwierzyńca rzut beretem. Polecam z czystym sumieniem!',
     },
