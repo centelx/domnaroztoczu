@@ -6,20 +6,20 @@ import { Section } from './ui/Section';
 export const Location: React.FC = () => {
   const cities = [
     { name: 'Zamość (Perła Renesansu)', distance: '25 km', time: '30 min', icon: <Car className="w-5 h-5" /> },
-    { name: 'Lotnisko Lublin (Świdnik)', distance: '90 km', time: '1h 15min', icon: <Plane className="w-5 h-5" /> },
-    { name: 'Lublin', distance: '100 km', time: '1h 30min', icon: <Car className="w-5 h-5" /> },
-    { name: 'Rzeszów', distance: '110 km', time: '1h 40min', icon: <Car className="w-5 h-5" /> },
-    { name: 'Warszawa', distance: '270 km', time: '3h 15min', icon: <Car className="w-5 h-5" /> },
+    { name: 'Lotnisko Lublin (Świdnik)', distance: '95 km', time: '1h 35min', icon: <Plane className="w-5 h-5" /> }, // Poprawiono czas i dystans
+    { name: 'Lublin', distance: '100 km', time: '1h 45min', icon: <Car className="w-5 h-5" /> }, // Urealniono czas
+    { name: 'Rzeszów', distance: '125 km', time: '2h', icon: <Car className="w-5 h-5" /> }, // Poprawiono dystans i czas
+    { name: 'Warszawa', distance: '270 km', time: '3h 20min', icon: <Car className="w-5 h-5" /> },
     { name: 'Kraków', distance: '280 km', time: '3h 30min', icon: <Car className="w-5 h-5" /> },
   ];
 
   const attractions = [
     { name: 'Roztoczański Park Narodowy', distance: '1.2 km', desc: 'Szlaki piesze i rowerowe tuż za rogiem', icon: <TreePine className="w-5 h-5" /> },
     { name: 'Spływy Kajakowe', distance: '300 m', desc: 'Start spływów rzeką Wieprz w Obroczy', icon: <Waves className="w-5 h-5" /> },
-    { name: 'Pijalnia Piwa Zwierzyniec', distance: '4.3 km', desc: 'Zabytkowy browar i pyszne lokalne piwo', icon: <Beer className="w-5 h-5" /> },
-    { name: 'Stawy Echo', distance: '6 km', desc: 'Plaża, kąpielisko i ostoja konika polskiego', icon: <Footprints className="w-5 h-5" /> },
-    { name: 'Zagroda Guciów', distance: '4 km', desc: 'Skansen, regionalna kuchnia i warsztaty', icon: <Home className="w-5 h-5" /> },
-    { name: 'Szumy nad Tanwią', distance: '28 km', desc: 'Słynne progi rzeczne (rezerwat przyrody)', icon: <Waves className="w-5 h-5" /> },
+    { name: 'Pijalnia Piwa Zwierzyniec', distance: '5.5 km', desc: 'Zabytkowy browar i pyszne lokalne piwo', icon: <Beer className="w-5 h-5" /> }, // Poprawiono z 4.3 km
+    { name: 'Stawy Echo', distance: '6.5 km', desc: 'Plaża, kąpielisko i ostoja konika polskiego', icon: <Footprints className="w-5 h-5" /> }, // Poprawiono z 6 km
+    { name: 'Zagroda Guciów', distance: '5 km', desc: 'Skansen, regionalna kuchnia i warsztaty', icon: <Home className="w-5 h-5" /> }, // Poprawiono z 4 km
+    { name: 'Szumy nad Tanwią', distance: '35 km', desc: 'Słynne progi rzeczne (rezerwat przyrody)', icon: <Waves className="w-5 h-5" /> }, // Poprawiono z 28 km
   ];
 
   return (
