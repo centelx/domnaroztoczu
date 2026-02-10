@@ -108,11 +108,8 @@ export const Testimonials: React.FC = () => {
             <div className="h-px w-full md:w-px md:h-24 bg-white/20"></div>
 
             <div className="text-center md:text-left max-w-md">
-              <p className="text-lg md:text-xl font-serif italic mb-4">
+              <p className="text-lg md:text-xl font-serif italic">
                 "Miejsce, do którego chce się wracać. Cisza, której w mieście nie znajdziesz."
-              </p>
-              <p className="text-white/70 text-sm">
-                Dziękujemy za zaufanie i setki wspaniałych opinii na Booking i Google.
               </p>
             </div>
           </div>
