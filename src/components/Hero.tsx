@@ -19,7 +19,7 @@ export const Hero: React.FC = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           // Zmiana: Użycie lokalnego pliku 1.JPEG
-          backgroundImage: 'url(/1.webp)',
+          backgroundImage: 'url(/hero.webp)',
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
