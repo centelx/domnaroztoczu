@@ -32,6 +32,7 @@ export const Navbar: React.FC = () => {
     { label: 'O domu', id: 'about' },
     { label: 'Udogodnienia', id: 'features' },
     { label: 'Galeria', id: 'gallery' },
+    { label: 'Opinie', id: 'testimonials' }, // <--- Dodane tutaj
     { label: 'Lokalizacja', id: 'location' },
     { label: 'Kontakt', id: 'contact' },
   ];
