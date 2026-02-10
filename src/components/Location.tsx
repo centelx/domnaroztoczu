@@ -37,7 +37,7 @@ export const Location: React.FC = () => {
           </h2>
           <div className="flex items-center justify-center space-x-2 text-lg md:text-xl text-muted">
             <MapPin className="w-5 h-5 text-accent" />
-            <span>Aleja Lipowa 2, Obrocz</span>
+            <span>Obrocz, Aleja Lipowa 73A, 22-470 Zwierzyniec</span>
           </div>
         </motion.div>
 
