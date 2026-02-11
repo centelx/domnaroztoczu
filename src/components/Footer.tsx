@@ -37,7 +37,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4" />
-                <span className="text-white/80">Obrocz, Aleja Lipowa 73A, 22-470 Zwierzyniec</span>
+                <span className="text-white/80">Obrocz 73A, 22-470 Obrocz</span>
               </div>
             </div>
           </div>
