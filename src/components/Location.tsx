@@ -6,9 +6,9 @@ import { Section } from './ui/Section';
 export const Location: React.FC = () => {
   const cities = [
     { name: 'Zamość (Perła Renesansu)', distance: '25 km', time: '30 min', icon: <Car className="w-5 h-5" /> },
-    { name: 'Lotnisko Lublin (Świdnik)', distance: '95 km', time: '1h 35min', icon: <Plane className="w-5 h-5" /> }, // Poprawiono czas i dystans
-    { name: 'Lublin', distance: '100 km', time: '1h 45min', icon: <Car className="w-5 h-5" /> }, // Urealniono czas
-    { name: 'Rzeszów', distance: '125 km', time: '2h', icon: <Car className="w-5 h-5" /> }, // Poprawiono dystans i czas
+    { name: 'Lotnisko Lublin (Świdnik)', distance: '95 km', time: '1h 35min', icon: <Plane className="w-5 h-5" /> },
+    { name: 'Lublin', distance: '100 km', time: '1h 45min', icon: <Car className="w-5 h-5" /> },
+    { name: 'Rzeszów', distance: '125 km', time: '2h', icon: <Car className="w-5 h-5" /> },
     { name: 'Warszawa', distance: '270 km', time: '3h 20min', icon: <Car className="w-5 h-5" /> },
     { name: 'Kraków', distance: '280 km', time: '3h 30min', icon: <Car className="w-5 h-5" /> },
   ];
@@ -16,10 +16,10 @@ export const Location: React.FC = () => {
   const attractions = [
     { name: 'Roztoczański Park Narodowy', distance: '1.2 km', desc: 'Szlaki piesze i rowerowe tuż za rogiem', icon: <TreePine className="w-5 h-5" /> },
     { name: 'Spływy Kajakowe', distance: '300 m', desc: 'Start spływów rzeką Wieprz w Obroczy', icon: <Waves className="w-5 h-5" /> },
-    { name: 'Pijalnia Piwa Zwierzyniec', distance: '5.5 km', desc: 'Zabytkowy browar i pyszne lokalne piwo', icon: <Beer className="w-5 h-5" /> }, // Poprawiono z 4.3 km
-    { name: 'Stawy Echo', distance: '6.5 km', desc: 'Plaża, kąpielisko i ostoja konika polskiego', icon: <Footprints className="w-5 h-5" /> }, // Poprawiono z 6 km
-    { name: 'Zagroda Guciów', distance: '5 km', desc: 'Skansen, regionalna kuchnia i warsztaty', icon: <Home className="w-5 h-5" /> }, // Poprawiono z 4 km
-    { name: 'Szumy nad Tanwią', distance: '35 km', desc: 'Słynne progi rzeczne (rezerwat przyrody)', icon: <Waves className="w-5 h-5" /> }, // Poprawiono z 28 km
+    { name: 'Pijalnia Piwa Zwierzyniec', distance: '5.5 km', desc: 'Zabytkowy browar i pyszne lokalne piwo', icon: <Beer className="w-5 h-5" /> },
+    { name: 'Stawy Echo', distance: '6.5 km', desc: 'Plaża, kąpielisko i ostoja konika polskiego', icon: <Footprints className="w-5 h-5" /> },
+    { name: 'Zagroda Guciów', distance: '5 km', desc: 'Skansen, regionalna kuchnia i warsztaty', icon: <Home className="w-5 h-5" /> },
+    { name: 'Szumy nad Tanwią', distance: '35 km', desc: 'Słynne progi rzeczne (rezerwat przyrody)', icon: <Waves className="w-5 h-5" /> },
   ];
 
   return (
@@ -37,7 +37,7 @@ export const Location: React.FC = () => {
           </h2>
           <div className="flex items-center justify-center space-x-2 text-lg md:text-xl text-muted">
             <MapPin className="w-5 h-5 text-accent" />
-            <span>Obrocz, Aleja Lipowa 73A, 22-470 Zwierzyniec</span>
+            <span>Obrocz 73A, 22-470 Obrocz</span>
           </div>
         </motion.div>
 
