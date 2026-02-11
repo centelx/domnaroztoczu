@@ -6,11 +6,11 @@ import { Section } from './ui/Section';
 export const Location: React.FC = () => {
   const cities = [
     { name: 'Zamość (Perła Renesansu)', distance: '25 km', time: '30 min', icon: <Car className="w-5 h-5" /> },
-    { name: 'Lotnisko Lublin (Świdnik)', distance: '95 km', time: '1h 35min', icon: <Plane className="w-5 h-5" /> },
+    { name: 'Lotnisko Lublin (Świdnik)', distance: '100 km', time: '1h 40min', icon: <Plane className="w-5 h-5" /> },
     { name: 'Lublin', distance: '100 km', time: '1h 45min', icon: <Car className="w-5 h-5" /> },
-    { name: 'Rzeszów', distance: '125 km', time: '2h', icon: <Car className="w-5 h-5" /> },
-    { name: 'Warszawa', distance: '270 km', time: '3h 20min', icon: <Car className="w-5 h-5" /> },
-    { name: 'Kraków', distance: '280 km', time: '3h 30min', icon: <Car className="w-5 h-5" /> },
+    { name: 'Rzeszów', distance: '115 km', time: '1h 50min', icon: <Car className="w-5 h-5" /> }, // Korekta: bliżej i szybciej
+    { name: 'Warszawa', distance: '260 km', time: '3h 30min', icon: <Car className="w-5 h-5" /> }, // Korekta dystansu
+    { name: 'Kraków', distance: '280 km', time: '3h 40min', icon: <Car className="w-5 h-5" /> }, // Urealniony czas
   ];
 
   const attractions = [
