@@ -93,8 +93,8 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-text mb-2">Adres</h4>
-                    <p className="text-muted">Obrocz, Aleja Lipowa 73A</p>
-                    <p className="text-muted">22-470 Zwierzyniec</p>
+                    <p className="text-muted">Obrocz 73A</p>
+                    <p className="text-muted">22-470 Obrocz</p>
                     <p className="text-muted mt-2 text-sm">
                       Z dala od hałasu, ale blisko tego, co ważne. 5 km do
                       Zwierzyńca, godzina drogi z Lublina.
