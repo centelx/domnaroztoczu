@@ -13,7 +13,7 @@ export const Contact: React.FC = () => {
     setIsSubmitting(true);
     const form = e.currentTarget;
     const formData = new FormData(form);
-    formData.append('access_key', '4343a106-203d-4279-9980-da05e02f360f');
+    formData.append('access_key', 'f4479d76-d65b-4fad-a6e3-39ac44bedcab');
 
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
